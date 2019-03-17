@@ -22,4 +22,8 @@ Some programming examples in Python
 
 	a. Solution (Python) using ElementTree: [writing_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/writing_xml_in_python.py)
 
+4. Finding XML Elements
+
+	a. Solution (Python) using ElementTree: [finding_xml_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/finding_xml_elements.py)
+
 Go back to [Contents](#contents).
