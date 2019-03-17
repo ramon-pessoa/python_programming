@@ -36,6 +36,8 @@ Some programming examples in Python
 
 7. Deleting XML Elements
 
-	a. Solution (Python) using ElementTree - deleting XML attribute: [deleting_xml_attribute.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_xml_attribute.py)
+	a. Solution (Python) using ElementTree - deleting an attribute: [deleting_xml_attribute.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_xml_attribute.py)
+
+	b. Solution (Python) using ElementTree - deleting one sub-element: [deleting_xml_sub_element.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_xml_sub_element.py)
 
 Go back to [Contents](#contents).
