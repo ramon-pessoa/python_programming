@@ -34,4 +34,8 @@ Some programming examples in Python
 
 	a. Solution (Python) using ElementTree: [creating_xml_sub_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/creating_xml_sub_elements.py)
 
+7. Deleting XML Elements
+
+	a. Solution (Python) using ElementTree - deleting XML attribute: [deleting_xml_attribute.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_xml_attribute.py)
+
 Go back to [Contents](#contents).
