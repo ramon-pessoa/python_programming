@@ -6,12 +6,10 @@ Some programming examples in Python
 
 ## Reading and writing XML files in Python
 
-1. Reading XML Documents - Using minidom
+1. Reading XML Documents
 
-	Solution (Python): [minidom_reading_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/python/reading-and-writing-xml-files-in-python/minidom_reading_xml_in_python.py)
+	a. Solution (Python) using minidom: [minidom_reading_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/minidom_reading_xml_in_python.py)
 
-2. Reading XML Documents - Using ElementTree
-
-	Solution (Python): [etree_reading_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/python/reading-and-writing-xml-files-in-python/etree_reading_xml_in_python.py)
+	b. Solution (Python) using ElementTree: [etree_reading_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/etree_reading_xml_in_python.py)
 
 Go back to [Contents](#contents).
