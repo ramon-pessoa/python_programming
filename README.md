@@ -30,4 +30,8 @@ Some programming examples in Python
 
 	a. Solution (Python) using ElementTree: [modifying_xml_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/modifying_xml_elements.py)
 
+6. Creating XML Sub-Elements
+
+	a. Solution (Python) using ElementTree: [creating_xml_sub_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/creating_xml_sub_elements.py)
+
 Go back to [Contents](#contents).
