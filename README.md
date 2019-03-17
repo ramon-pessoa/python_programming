@@ -12,4 +12,10 @@ Some programming examples in Python
 
 	b. Solution (Python) using ElementTree: [etree_reading_xml_in_python.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/etree_reading_xml_in_python.py)
 
+2. Counting the Elements of an XML Document
+
+	a. Solution (Python) using minidom: [minidom_counting_elements_in_xml.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/minidom_counting_elements_in_xml.py)
+
+	b. Solution (Python) using ElementTree: [etree_counting_elements_in_xml.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/etree_counting_elements_in_xml.py)
+
 Go back to [Contents](#contents).
