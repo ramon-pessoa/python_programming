@@ -40,4 +40,6 @@ Some programming examples in Python
 
 	b. Solution (Python) using ElementTree - deleting one sub-element: [deleting_xml_sub_element.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_xml_sub_element.py)
 
+	c. Solution (Python) using ElementTree - deleting all sub-elements: [deleting_all_xml_sub_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading-and-writing-xml-files-in-python/deleting_all_xml_sub_elements.py)
+
 Go back to [Contents](#contents).
