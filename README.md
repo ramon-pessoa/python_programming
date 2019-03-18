@@ -4,6 +4,8 @@ Some programming examples in Python
 ## Contents
 1. [Reading and writing XML files in Python](#reading-and-writing-xml-files-in-python)
 
+2. [Solutions for coding problems](#solutions-for-coding-problems)
+
 ## Reading and writing XML files in Python
 
 1. Reading XML Documents
@@ -41,5 +43,11 @@ Some programming examples in Python
 	b. Solution (Python) using ElementTree - deleting one sub-element: [deleting_xml_sub_element.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading_and_writing_xml_files_in_python/deleting_xml_sub_element.py)
 
 	c. Solution (Python) using ElementTree - deleting all sub-elements: [deleting_all_xml_sub_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading_and_writing_xml_files_in_python/deleting_all_xml_sub_elements.py)
+
+## Solutions for coding problems
+
+	1. Problem #1 [Easy]: Given a list of numbers and a number k, return whether any two numbers from the list add up to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+
+	a. Solution (Python) [verify_if_two_numbers_in_a_list_add_up_to_k.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/verify_if_two_numbers_in_a_list_add_up_to_k.py)
 
 Go back to [Contents](#contents).
