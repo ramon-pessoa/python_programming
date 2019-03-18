@@ -2,7 +2,7 @@ Some programming examples in Python
 ===========================
 
 ## Contents
-1. [Reading and writing XML files in Python](#reading_and_writing_xml_files_in_python)
+1. [Reading and writing XML files in Python](#reading-and-writing-xml-files-in-python)
 
 ## Reading and writing XML files in Python
 
