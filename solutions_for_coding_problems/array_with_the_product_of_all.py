@@ -14,4 +14,4 @@ new_arr = get_array_with_the_product_of_all(arr1)
 print("New array using [3, 2, 1] input array: ", new_arr)
 arr2 = [1, 2, 3, 4, 5]
 new_arr = get_array_with_the_product_of_all(arr2)
-print("New array using [3, 2, 1] input array: ", new_arr)
+print("New array using [1, 2, 3, 4, 5] input array: ", new_arr)
