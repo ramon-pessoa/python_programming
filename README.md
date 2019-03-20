@@ -52,4 +52,12 @@ Some programming examples in Python
 
 	a. Solution (Python) [verify_if_two_numbers_in_a_list_add_up_to_k.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/verify_if_two_numbers_in_a_list_add_up_to_k.py)
 
+2. Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+
+For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+
+Follow-up: what if you can't use division?
+
+	a. Solution (Python) [array_with_the_product_of_all.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all.py)
+
 Go back to [Contents](#contents).

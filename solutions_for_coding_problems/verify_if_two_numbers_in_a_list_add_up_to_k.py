@@ -4,11 +4,11 @@ def contains_pair_with_sum(list1, k):
         j = len(list1) - i - 1
         if i < j:
             val2 = list1[j]
-            sum = val1 + val2
+            sum := val1 + val2
             if sum < k:
-                i = i + 1
+                i := i + 1
             elif sum > k:
-                j = j - 1
+                j := j - 1
             else:
                 return True
 
