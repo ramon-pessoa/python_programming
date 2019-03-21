@@ -76,4 +76,24 @@ Some programming examples in Python
 
 	c. Solution (Python) [array_with_the_product_of_all_without_division_linear_time.py]. Solution without division that takes O(n). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all_without_division_linear_time.py)
 
+3. Problem #3 [Medium]: Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+	* For example, given the following Node class
+
+```python
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```
+
+The following test should pass:
+
+```python
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
+	a. Solution (Python) [serialize_deserialize.py]. Solution with binary tree. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/serialize_deserialize.py)
+
 Go back to [Contents](#contents).
