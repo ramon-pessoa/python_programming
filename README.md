@@ -4,7 +4,9 @@ Some programming examples in Python
 ## Contents
 1. [Reading and writing XML files in Python](#reading-and-writing-xml-files-in-python)
 
-2. [Solutions for coding problems](#solutions-for-coding-problems)
+2. [Data structures algorithms](#data-structures-algorithms)
+
+3. [Solutions for coding problems](#solutions-for-coding-problems)
 
 ## Reading and writing XML files in Python
 
@@ -43,6 +45,10 @@ Some programming examples in Python
 	b. Solution (Python) using ElementTree - deleting one sub-element: [deleting_xml_sub_element.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading_and_writing_xml_files_in_python/deleting_xml_sub_element.py)
 
 	c. Solution (Python) using ElementTree - deleting all sub-elements: [deleting_all_xml_sub_elements.py](https://github.com/ramon-pessoa/python_programming/blob/master/reading_and_writing_xml_files_in_python/deleting_all_xml_sub_elements.py)
+
+## Data structures algorithms
+
+1. Binary search: [binary_search.py](https://github.com/ramon-pessoa/python_programming/blob/master/data_structures_algorithms/binary_search.py)
 
 ## Solutions for coding problems
 
