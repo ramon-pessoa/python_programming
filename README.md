@@ -70,6 +70,10 @@ Some programming examples in Python
 	* For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 	* Follow-up: what if you can't use division?
 
-	a. Solution (Python) [array_with_the_product_of_all.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all.py)
+	a. Solution (Python) [array_with_the_product_of_all_without_division.py]. Solution without division that takes O(nˆ2). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all_without_division.py)
+
+	b. Solution (Python) [array_with_the_product_of_all_with_division.py]. Solution with division that takes O(n). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all_with_division.py)
+
+	c. Solution (Python) [array_with_the_product_of_all_without_division_linear_time.py]. Solution without division that takes O(n). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/array_with_the_product_of_all_without_division_linear_time.py)
 
 Go back to [Contents](#contents).
