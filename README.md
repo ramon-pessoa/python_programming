@@ -96,4 +96,14 @@ Some programming examples in Python
 	```
 	a. Solution (Python) [serialize_deserialize.py]. Solution with binary tree. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/serialize_deserialize.py)
 
+
+4. Problem #3 [Hard]: Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+	* For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
+	* You can modify the input array in-place.
+
+	a. Solution (Python) [first_missing_positive.py]. Solution in O(N) time and no extra space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/first_missing_positive.py)
+
+	b. Solution (Python) [first_missing_positive_using_set.py]. Solution in O(N) time and O(N) space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/first_missing_positive_using_set.py)
+
 Go back to [Contents](#contents).
