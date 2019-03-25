@@ -130,4 +130,15 @@ Some programming examples in Python
 
 	a. Solution (Python) [xor_linked_list.py]. Solution where add runs in O(1) time and get runs in O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/xor_linked_list.py)
 
+7. Problem #7 [Medium]: Problem #7 [Medium]: Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
+
+	* For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
+
+	* You can assume that the messages are decodable. For example, '001' is not allowed.
+
+	a. Solution (Python) [num_encodings_O_2n.py]. Solution runs in O(2n). However, this solution is not very efficient. Every branch calls itself recursively twice. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encodings_O_2n.py)
+
+	b. Solution (Python) [num_encodings_O_n.py]. Solution runs O(n) by using dynamic programming. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encodings_O_n.py)
+
+
 Go back to [Contents](#contents).
