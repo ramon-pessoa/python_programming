@@ -138,7 +138,7 @@ Some programming examples in Python
 
 	a. Solution (Python) [num_encodings_O_2n.py]. Solution runs in O(2n). However, this solution is not very efficient. Every branch calls itself recursively twice. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encodings_O_2n.py)
 
-	b. Solution (Python) [num_encodings_O_n.py]. Solution runs O(n) by using dynamic programming. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encodings_O_n.py)
+	b. Solution (Python) [num_encodings_O_n.py]. Solution runs O(n) by using dynamic programming. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encondings_O_n.py)
 
 
 Go back to [Contents](#contents).
