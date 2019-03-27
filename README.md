@@ -160,4 +160,16 @@ Some programming examples in Python
 
 	b. Solution (Python) [unival_tree_o_n.py]. Solution in O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/unival_tree_o_n.py)
 
+9. Problem #9 [Hard]: Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
+	* For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
+
+	* Follow-up: Can you do this in O(N) time and constant space?
+
+	a. Solution (Python) [largest_sum_of_non_adjacent_numbers_exponential_time.py]. Solution in O(2^N) time - recursive calls. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/largest_sum_of_non_adjacent_numbers_exponential_time.py) 
+
+	b. Solution (Python) [largest_sum_of_non_adjacent_numbers_linear_time.py]. Solution runs in O(n) time and in O(n) space - using dynamic programming to store. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/largest_sum_of_non_adjacent_numbers_linear_time.py) 
+
+	c. Solution (Python) [largest_sum_of_non_adjacent_numbers_linear_time_improvement.py]. Solution runs in O(n) time and in O(n) space with improvements. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/largest_sum_of_non_adjacent_numbers_linear_time_improvement.py)
+
 Go back to [Contents](#contents).
