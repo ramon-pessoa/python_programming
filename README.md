@@ -140,5 +140,25 @@ Some programming examples in Python
 
 	b. Solution (Python) [num_encodings_O_n.py]. Solution runs O(n) by using dynamic programming. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/num_encondings_O_n.py)
 
+8. Problem #8 [Easy]: A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+	* Given the root to a binary tree, count the number of unival subtrees.
+
+	* For example, the following tree has 5 unival subtrees:
+
+```sh
+
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+ ```
+
+	a. Solution (Python) [unival_tree_o_n_2.py]. Solution in O(N^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/unival_tree_o_n_2.py)
+
+	b. Solution (Python) [unival_tree_o_n.py]. Solution in O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/unival_tree_o_n.py)
 
 Go back to [Contents](#contents).
