@@ -146,16 +146,15 @@ Some programming examples in Python
 
 	* For example, the following tree has 5 unival subtrees:
 
-```sh
-
-   0
-  / \
- 1   0
-    / \
-   1   0
-  / \
- 1   1
- ```
+	```
+	   0
+	  / \
+	 1   0
+	    / \
+	   1   0
+	  / \
+	 1   1
+ 	```
 
 	a. Solution (Python) [unival_tree_o_n_2.py]. Solution in O(N^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/unival_tree_o_n_2.py)
 
