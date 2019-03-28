@@ -172,4 +172,10 @@ Some programming examples in Python
 
 	c. Solution (Python) [largest_sum_of_non_adjacent_numbers_linear_time_improvement.py]. Solution runs in O(n) time and in O(n) space with improvements. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/largest_sum_of_non_adjacent_numbers_linear_time_improvement.py)
 
+10. Problem #10 [Medium]: Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+
+	a. Solution (Python) [scheduler_new_thread_each_call.py]. While this solution works, we spin off a new thread each time we call delay (the number of threads we use could easily explode). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/scheduler_new_thread_each_call.py) 
+
+	b. Solution (Python) [scheduler_dedicated_thread.py]. Solution with dedicated thread to call the functions, and storing the functions we need to call in some data structure. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/scheduler_dedicated_thread.py)
+
 Go back to [Contents](#contents).
