@@ -178,4 +178,14 @@ Some programming examples in Python
 
 	b. Solution (Python) [scheduler_dedicated_thread.py]. Solution with dedicated thread to call the functions, and storing the functions we need to call in some data structure. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/scheduler_dedicated_thread.py)
 
+11. Problem #11 [Medium]: Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+	* For example, given the query string 'de' and the set of strings [dog, deer, deal], return [deer, deal].
+
+	* Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+	a. Solution (Python) [autocomplete.py]. This solution runs in O(N) time, where N is the number of words in the dictionary. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/autocomplete.py) 
+
+	b. Solution (Python) [autocomplete_using_trie.py]. More efficient implementation using a data structure known as a trie. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/autocomplete_using_trie.py) 
+
 Go back to [Contents](#contents).
