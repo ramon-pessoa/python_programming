@@ -23,4 +23,6 @@ Some programming examples in Python
 2
 ```
 
+	a. Solution (Python) [get_median.py]. The solution uses two heaps: a min-heap and a max-heap. This runs in O(N) space and in O(N log N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/get_median.py) 
+
 Go back to [Contents](#contents).
