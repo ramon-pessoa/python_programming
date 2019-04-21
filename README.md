@@ -54,4 +54,6 @@ Some programming examples in Python
 
 1. Problems 1 to 25: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_1-25.md)
 
+2. Problems 26 to 50: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_26-50.md)
+
 Go back to [Contents](#contents).
