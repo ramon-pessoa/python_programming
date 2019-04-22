@@ -25,4 +25,16 @@ Some programming examples in Python
 
 	a. Solution (Python) [print_median.py]. The solution uses two heaps: a min-heap and a max-heap. This runs in O(N) space and in O(N log N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/print_median.py) 
 
+34. Problem #34 [Medium]: Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
+	* For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
+	* As another example, given the string "google", you should return "elgoogle".
+
+	a. Solution (Python) [make_palindrome_exponential_time.py]. Naive recursive solution. This solution runs in O(2^N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_exponential_time.py) 
+
+	b. Solution (Python) [make_palindrome_dynamic_programming.py]. Dynamic programming solution. This solution is inefficient due to buildup in the call stack. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_dynamic_programming.py) 
+
+	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
+
 Go back to [Contents](#contents).
