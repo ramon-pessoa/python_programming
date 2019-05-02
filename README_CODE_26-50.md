@@ -37,6 +37,13 @@ Some programming examples in Python
 
 	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
 
+42. Problem #42 [Hard]: Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
+
+	* Integers can appear more than once in the list. You may assume all numbers in the list are positive.
+
+	* For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+	
+
 43. Problem #43 [Easy]: Implement a stack that has the following methods:
 	* push(val), which pushes an element onto the stack
 	* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
