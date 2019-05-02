@@ -42,7 +42,7 @@ Some programming examples in Python
 	* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
 	* max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
-	* Each method should run in constant time.
+		* Each method should run in constant time.
 
 44. Problem #44 [Medium]: We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
 
