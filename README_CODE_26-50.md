@@ -37,6 +37,13 @@ Some programming examples in Python
 
 	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
 
+43. Problem #43 [Easy]: Implement a stack that has the following methods:
+	* push(val), which pushes an element onto the stack
+	* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+	* max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+	* Each method should run in constant time.
+
 44. Problem #44 [Medium]: We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
 
 	* Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
