@@ -58,4 +58,8 @@ Some programming examples in Python
 
 	a. Solution (Python) [count_inversions_divide_and_conquer_solution.py]. Divide-and-conquer solution that runs in O(N log N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/count_inversions_divide_and_conquer_solution.py)
 
+45. Problem #45 [Easy]: Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+	
+	a. Solution (Python) [rand7.py]: Solution by computing rand5() twice. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/rand7.py)
+
 Go back to [Contents](#contents).
