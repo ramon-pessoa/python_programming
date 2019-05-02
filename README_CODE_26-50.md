@@ -47,6 +47,6 @@ Some programming examples in Python
 
 	a. Solution (Python) [count_inversions_brute_force_solution.py]. Brute force solution that runs in O(N^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/count_inversions_brute_force_solution.py)
 
-	a. Solution (Python) [count_inversions_brute_force_solution.py]. Divide-and-conquer solution that runs in O(N log N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/count_inversions_brute_force_solution.py)
+	a. Solution (Python) [count_inversions_divide_and_conquer_solution.py]. Divide-and-conquer solution that runs in O(N log N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/count_inversions_divide_and_conquer_solution.py)
 
 Go back to [Contents](#contents).
