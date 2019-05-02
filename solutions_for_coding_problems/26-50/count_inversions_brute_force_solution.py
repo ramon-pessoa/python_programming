@@ -9,9 +9,8 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 '''
 
 '''
-The brute force solution comes naturally from the definition: we can run a
-doubly nested for loop over all pairs, and increment a counter whenever we encounter a
-larger element before a smaller element. Like the solution below:
+The brute force solution comes naturally from the definition: we can run a doubly nested for loop over all pairs, and increment a counter whenever we encounter a larger element before a smaller element. 
+Like the solution below:
 '''
 
 def count_inversions(arr):
