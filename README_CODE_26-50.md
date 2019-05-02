@@ -44,6 +44,8 @@ Some programming examples in Python
 
 		* Each method should run in constant time.
 
+	a. Solution (Python) [max_stack.py]. Max Stack with methods that runs in constant time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/max_stack.py)
+
 44. Problem #44 [Medium]: We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
 
 	* Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
