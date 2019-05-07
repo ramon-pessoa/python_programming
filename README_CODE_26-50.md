@@ -73,7 +73,7 @@ Some programming examples in Python
 
 	* For example, given the following preorder traversal: [a, b, d, e, c, f, g]
 	* And the following inorder traversal: [d, b, e, a, f, c, g]
-	
+
 	* You should return the following tree:
 
 	```
@@ -84,6 +84,6 @@ Some programming examples in Python
 	d e f g
 	```
 
-	a. Solution (Python) [reconstruct.py]:
+	a. Solution (Python) [reconstruct.py]: Recursive solution (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/reconstruct.py)
 
 Go back to [Contents](#contents).
