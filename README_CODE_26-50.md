@@ -73,15 +73,16 @@ Some programming examples in Python
 
 	* For example, given the following preorder traversal: [a, b, d, e, c, f, g]
 	* And the following inorder traversal: [d, b, e, a, f, c, g]
+	
 	* You should return the following tree:
 
-```
-   a
-  / \
- b   c
-/ \ / \
-d e f g
-```
+	```
+	   a
+	  / \
+	 b   c
+	/ \ / \
+	d e f g
+	```
 
 	a. Solution (Python) [reconstruct.py]:
 
