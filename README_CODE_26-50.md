@@ -69,6 +69,14 @@ Some programming examples in Python
 	
 	a. Solution (Python) [rand7.py]: Solution by computing rand5() twice. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/rand7.py)
 
+46. Problem #46 [Hard]: Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one. 
+
+	* For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+	
+	a. Solution (Python) [longest_palindrome_brute_force.py]: Brute force solution. This solution runs in O(N^3) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/longest_palindrome_brute_force.py)
+
+	b. Solution (Python) [longest_palindrome_dynamic_programming.py]: Dynamic programming solution. This solution runs in O(N^2) time and space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/longest_palindrome_dynamic_programming.py)
+
 48. Problem #48 [Medium]: Given pre‑order and in‑order traversals of a binary tree, write a function to reconstruct the tree.
 
 	* For example, given the following preorder traversal: [a, b, d, e, c, f, g]
