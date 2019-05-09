@@ -37,6 +37,11 @@ Some programming examples in Python
 
 	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
 
+38. Problem #38 [Hard]: Problem #38: You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+	a. Solution (Python) [n_queens.py]. We show a solution for the problem of N Queens using backtracking technique. Note: If we solve this problem using brute force, we would quickly find out that it would be prohibitively expensive. That's factorial in runtime! (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/n_queens.py) 
+
+
 39. Problem #39 [Medium]: Problem #39: Conway's Game of Life takes place on an infinite two‑dimensional board of square cells. 
 
 	* Each cell is either dead or alive, and at each tick, the following rules apply:
