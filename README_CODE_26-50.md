@@ -37,6 +37,21 @@ Some programming examples in Python
 
 	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
 
+39. Problem #39 [Medium]: Problem #39: Conway's Game of Life takes place on an infinite two‑dimensional board of square cells. 
+
+	* Each cell is either dead or alive, and at each tick, the following rules apply:
+
+		- Any live cell with less than two live neighbours dies.
+		- Any live cell with two or three live neighbours remains living.
+		- Any live cell with more than three live neighbours dies.
+		- Any dead cell with exactly three live neighbours becomes a live cell.
+
+	* A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+
+	* Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top‑leftmost live cell to bottom‑rightmost live cell.
+
+	* You can represent a live cell with an asterisk (asterisk symbol) and a dead cell with a dot (.).
+
 40. Problem #40 [Hard]: Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
 
 	* For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
