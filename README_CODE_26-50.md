@@ -13,7 +13,7 @@ Some programming examples in Python
 
 	a. Solution (Python) [edit_distance_with_recursion.py.py]. Solution using recursion. This runs very slowly due to repeated subcomputations. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_with_recursion.py)
 
-	b. Solution (Python) [edit_distance.py]. Solution using dinamic programming. This solution takes O(N * M) time and space, where N and M are the lengths of the strings. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance.py) 
+	b. Solution (Python) [edit_distance_dinamic_programming.py]. Solution using dinamic programming. This solution takes O(N * M) time and space, where N and M are the lengths of the strings. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_dinamic_programming.py) 
 
 32. Problem #32 [Hard]: Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
 
