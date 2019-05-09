@@ -37,6 +37,14 @@ Some programming examples in Python
 
 	c. Solution (Python) [make_palindrome_cubic_time.py]. A solution that builds a 2D table. This solution stores a part of the input string in each index of a matrix, therefore the time and space complexity for this solution is O(N^3). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/make_palindrome_cubic_time.py) 
 
+35. Problem #35 [Hard]: Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+	* Do this in linear time and in‑place.
+
+	* For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+	a. Solution (Python) [partition.py]. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/partition.py) 
+
 36. Problem #36 [Medium]: Given the root to a binary search tree, find the second largest node in the tree.
 	
 	a. Solution (Python) [second_largest.py]. Solution using a reverse in-order traversal. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/second_largest.py) 
