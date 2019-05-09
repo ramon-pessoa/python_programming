@@ -52,6 +52,8 @@ Some programming examples in Python
 
 	* You can represent a live cell with an asterisk (asterisk symbol) and a dead cell with a dot (.).
 
+	a. Solution (Python) [game_of_life.py]. Solution for Conway's Game of Life. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/game_of_life.py) 
+
 40. Problem #40 [Hard]: Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
 
 	* For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
