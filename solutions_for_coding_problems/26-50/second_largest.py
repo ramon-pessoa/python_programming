@@ -1,6 +1,7 @@
 '''
 Problem #37 [Medium]: Given the root to a binary search tree, find the second largest node in the tree.
 '''
+
 '''
 An in-order traversal of the binary search tree would give us all the nodes of the tree in sorted order. 
 So the naive solution here might be do an in-order traversal of the tree, store it in an array, and return the second-to-last element in the array.
