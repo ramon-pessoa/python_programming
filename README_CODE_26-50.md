@@ -7,6 +7,12 @@ Some programming examples in Python
 
 ## Solutions for coding problems
 
+32. Problem #32 [Hard]: Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+	* There are no transaction costs and you can trade fractional quantities.
+
+	a. Solution (Python) [arbitrage.py]. Solution using the Bellman-Ford algorithm (graph modeling). The solution runs in O(N^3) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/arbitrage.py) 
+
 33. Problem #33 [Easy]: Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
 
 	* Recall that the median of an even-numbered list is the average of the two middle numbers.
