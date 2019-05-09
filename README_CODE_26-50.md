@@ -11,7 +11,7 @@ Some programming examples in Python
 
 	* Given two strings, compute the edit distance between them.
 
-	a. Solution (Python) [edit_distance_with_recursion.py.py]. Solution using recursion. This runs very slowly due to repeated subcomputations. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_with_recursion.py)
+	a. Solution (Python) [edit_distance_with_recursion.py]. Solution using recursion. This runs very slowly due to repeated subcomputations. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_with_recursion.py)
 
 	b. Solution (Python) [edit_distance_dinamic_programming.py]. Solution using dinamic programming. This solution takes O(N * M) time and space, where N and M are the lengths of the strings. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_dinamic_programming.py) 
 
