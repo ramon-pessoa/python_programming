@@ -7,6 +7,14 @@ Some programming examples in Python
 
 ## Solutions for coding problems
 
+31. Problem #31 [Easy]: The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+	* Given two strings, compute the edit distance between them.
+
+	a. Solution (Python) [edit_distance_with_recursion.py.py]. Solution using recursion. This runs very slowly due to repeated subcomputations. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance_with_recursion.py.py)
+
+	b. Solution (Python) [edit_distance.py]. Solution using dinamic programming. This solution takes O(N * M) time and space, where N and M are the lengths of the strings. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/edit_distance.py.py) 
+
 32. Problem #32 [Hard]: Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
 
 	* There are no transaction costs and you can trade fractional quantities.
