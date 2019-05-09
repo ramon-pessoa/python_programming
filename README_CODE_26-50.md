@@ -77,6 +77,14 @@ Some programming examples in Python
 
 	b. Solution (Python) [longest_palindrome_dynamic_programming.py]: Dynamic programming solution. This solution runs in O(N^2) time and space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/longest_palindrome_dynamic_programming.py)
 
+47. Problem #47 [Easy]: Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+	* For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+	a. Solution (Python) [buy_and_sell_brute_force.py]: Brute force solution. This solution runs in O(N^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/buy_and_sell_brute_force.py)
+
+	b. Solution (Python) [buy_and_sell_linear_time.py]: Linear time solution. This solution runs in O(N) time and O(1) space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/buy_and_sell_linear_time.py)
+
 48. Problem #48 [Medium]: Given pre‑order and in‑order traversals of a binary tree, write a function to reconstruct the tree.
 
 	* For example, given the following preorder traversal: [a, b, d, e, c, f, g]
