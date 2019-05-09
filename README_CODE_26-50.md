@@ -7,6 +7,12 @@ Some programming examples in Python
 
 ## Solutions for coding problems
 
+29. Problem #29 [Easy]: Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+	* Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+	a. Solution (Python) [run_length_encoding.py]. Run-length encoding implementation. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/run_length_encoding.py)
+
 31. Problem #31 [Easy]: The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 	* Given two strings, compute the edit distance between them.
