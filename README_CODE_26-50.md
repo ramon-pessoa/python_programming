@@ -13,7 +13,7 @@ Some programming examples in Python
 	
 	* Given the string "([)]" or "((()", you should return false.
 
-	a. Solution (Python) [balance.py]. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/balance.py)
+	a. Solution (Python) [balance.py]. Solution using Stack. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/balance.py)
 
 29. Problem #29 [Easy]: Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 
