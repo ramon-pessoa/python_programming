@@ -143,4 +143,13 @@ Some programming examples in Python
 
 	b. Solution (Python) [autocomplete_using_trie.py]. More efficient implementation using a data structure known as a trie. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete_using_trie.py) 
 
+21. Problem #21 [Easy]: Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+	* For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+	a. Solution (Python) [max_overlapping_quadratic_time.py]. Solution checking each interval pairwise. This solution would take O(n^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_quadratic_time.py) 
+
+	b. Solution (Python) [max_overlapping_logarithmic_time.py]. Solution that extract the start times and end times of all the intervals and sort them. This solution runs in O(n log n) time, since we have to sort the intervals. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_logarithmic_time.py) 
+
+
 Go back to [Contents](#contents).
