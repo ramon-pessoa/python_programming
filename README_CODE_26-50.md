@@ -193,4 +193,22 @@ Some programming examples in Python
 
 	a. Solution (Python) [reconstruct.py]: Recursive solution (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/reconstruct.py)
 
+50. Problem #50 [Easy]: Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'. 
+
+	* Given the root to such a tree, write a function to evaluate it.
+
+	* For example, given the following tree:
+
+	```
+	   *
+	  / \
+	 +   +
+	/ \ / \
+	3 2 4 5
+	```
+
+	* You should return 45, as it is (3 + 2) * (4 + 5).
+
+	a. Solution (Python) [evaluate_arithmetic_expression.py]: Solution using binary tree and recursion. This solution runs in O(N) time and space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/evaluate_arithmetic_expression.py)
+
 Go back to [Contents](#contents).
