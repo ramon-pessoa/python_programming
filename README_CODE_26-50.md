@@ -11,7 +11,7 @@ Some programming examples in Python
 
 	* For example, given the string "([])[]({})", you should return true.
 	
-	* Given the string "([)]" or "((()", you should return false.
+	* Given the string "([)]" or "((()", you should return false. 
 
 	a. Solution (Python) [balance.py]. Solution using Stack. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/balance.py)
 
