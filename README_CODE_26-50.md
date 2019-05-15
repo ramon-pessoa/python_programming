@@ -85,10 +85,6 @@ Some programming examples in Python
 
 	a. Solution (Python) [power_set.py]. This solution runs in O(2^N) time and space (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/power_set.py) 
 
-37. Problem #37 [Medium]: Given the root to a binary search tree, find the second largest node in the tree.
-
-	a. Solution (Python) [second_largest.py]. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/second_largest.py)
-
 38. Problem #38 [Hard]: You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 	a. Solution (Python) [n_queens.py]. We show a solution for the problem of N Queens using backtracking technique. Note: If we solve this problem using brute force, we would quickly find out that it would be prohibitively expensive. That's factorial in runtime! (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/n_queens.py)
