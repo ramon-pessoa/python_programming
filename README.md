@@ -50,6 +50,8 @@ Some programming examples in Python
 
 1. Binary search: [binary_search.py](https://github.com/ramon-pessoa/python_programming/blob/master/data_structures_algorithms/binary_search.py)
 
+2. Linked List: [linked_list.py](https://github.com/ramon-pessoa/python_programming/blob/master/data_structures_algorithms/linked_list.py)
+
 ## Solutions for coding problems
 
 1. Problems 1 to 25: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_1-25.md)
