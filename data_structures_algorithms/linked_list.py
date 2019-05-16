@@ -31,7 +31,7 @@ class NumLinkedList:
 		if middle_node is None:
 			print("The mentioned node is absent")
 			return
-
+# Update the new nodes next val to existing node
 		new_node = Node(newdata)
 		new_node.next = middle_node.next
 		middle_node.next = new_node
