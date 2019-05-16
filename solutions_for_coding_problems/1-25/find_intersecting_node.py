@@ -17,9 +17,9 @@ Then we'd return the first node that is present in the set.
 
 This takes O(M + N) time but also O(max(M, N)) space (since we don't know initially which list is longer). 
 
-We can get around the space constraint with the following trick: 
+We can get around the space constraint with the following trick: first, get the length of both lists. 
 
-first, get the length of both lists. Find the difference between the two, and then keep two pointers at the head of each list. 
+Find the difference between the two, and then keep two pointers at the head of each list. 
 
 Move the pointer of the larger list up by the difference, and then move the pointers forward in conjunction and check if they match.
 '''
