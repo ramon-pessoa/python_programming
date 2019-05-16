@@ -150,7 +150,9 @@ Some programming examples in Python
 
 	* You should be as efficient with time and space as possible.
 
-	a. Solution (Python) [log_record_get_last_linear_time.py]. Solution initializing an array to have size N, and index it in constant time.That means record takes O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_linear_time.py)
+	a. Solution (Python) [log_record_get_last_linear_time.py]. Solution initializing an array to have size N, and index it in constant time. Record takes O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_linear_time.py)
+
+	b. Solution (Python) [log_record_get_last_constant_time.py]. Solution using ring buffer or circular buffer. Both record and get_last should take constant time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_constant_time.py)
 
 21. Problem #21 [Easy]: Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 

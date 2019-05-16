@@ -13,6 +13,11 @@ It seems like an array would be the perfect fit for this problem.
 We can just initialize the array to have size N, and index it in constant time. 
 Then, when we record any orders, we can pop off the first order and append it to the end. 
 Getting the ith last order would then just be indexing the array at length - i.
+
+
+This is one issue with this solution, however: 
+when we have to pop off an element when the array is full, we have to move every other element down by 1. 
+That means record takes O(N) time.
 '''
 
 class Log(object):
