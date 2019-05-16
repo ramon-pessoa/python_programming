@@ -143,6 +143,13 @@ Some programming examples in Python
 
 	b. Solution (Python) [autocomplete_using_trie.py]. More efficient implementation using a data structure known as a trie. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete_using_trie.py) 
 
+12. Problem #16 [Easy]: You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
+
+	* record(order_id): adds the order_id to the log
+	* get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+
+	* You should be as efficient with time and space as possible.
+
 21. Problem #21 [Easy]: Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 	* For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
