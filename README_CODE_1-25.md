@@ -162,7 +162,7 @@ Some programming examples in Python
 
 	Do this in O(M + N) time
 
-	a. Solution (Python) [find_intersecting_node.py]. Solution initializing an array to have size N, and index it in constant time. Record takes O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_intersecting_node.py)
+	a. Solution (Python) [find_intersecting_node.py]. Solution by finding the difference between the two, and then keep two pointers at the head of each list. This solution runs in O(M + N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_intersecting_node.py)
 
 21. Problem #21 [Easy]: Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
