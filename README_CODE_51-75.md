@@ -28,4 +28,12 @@ Some programming examples in Python
 
 	a. Solution (Python) - Solution using backtracking. This solution runs in O(k^N) time and O(k) space, where N is the number of vertices: [colorable.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/colorable.py)
 
+57. Problem #56 [Medium]: Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
+
+	* You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
+
+	* For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+	a. Solution (Python) - Greedy algorithm: [break_string_in_length_of_k.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/break_string_in_length_of_k.py)
+
 Go back to [Contents](#contents).
