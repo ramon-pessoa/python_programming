@@ -54,10 +54,10 @@ Some programming examples in Python
 
 ## Solutions for coding problems
 
-1. Problems 1 to 25: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_1-25.md)
+1. [Problems 1 to 25](https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_1-25.md): Solution (Python)
 
-2. Problems 26 to 50: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_26-50.md)
+2. [Problems 26 to 50](https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_26-50.md): Solution (Python) 
 
-2. Problems 51 to 75: Solution (Python) (https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_51-75.md)
+2. [Problems 51 to 75](https://github.com/ramonfigueiredopessoa/python_programming/blob/master/README_CODE_51-75.md): Solution (Python) 
 
 Go back to [Contents](#contents).
