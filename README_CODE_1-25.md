@@ -3,9 +3,11 @@ Some programming examples in Python
 
 ## Contents
 
-1. [Solutions for coding problems](#solutions-for-coding-problems)
+1. [Solutions for coding problems](#problems-from-1-to-25)
 
-## Solutions for coding problems
+2. [All solutions for coding problem](https://github.com/ramonfigueiredopessoa/python_programming#solutions-for-coding-problems)
+
+## Problems from 1 to 25
 
 1. Problem #1 [Easy]: Given a list of numbers and a number k, return whether any two numbers from the list add up to k. 
 	* For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17. 
