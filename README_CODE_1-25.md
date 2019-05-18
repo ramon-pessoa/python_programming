@@ -167,6 +167,14 @@ Some programming examples in Python
 
 	d. Solution (Python) - Solution that works if you can take a number of steps from the set X. Solution using dynamic programming to speed it up: [staircase_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/staircase_dynamic_programming.py) 
 
+13. Problem #13 [Hard]: Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
+
+	* For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
+
+	a. Solution (Python) - Brute force solution. This solution runs in O(n^2 + k) time, since we use n^2 to generate each possible substring, and then take k to check each character: [longest_substring_with_k_distinct_characters_brute_force_solution.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/longest_substring_with_k_distinct_characters_brute_force_solution.py)
+
+	b. Solution (Python) - Solution using dictionary. This solution runs in O(n * k) time and O(k) space: [longest_substring_with_k_distinct_characters_using_dictionary.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/longest_substring_with_k_distinct_characters_using_dictionary.py)
+
 16. Problem #16 [Easy]: You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
 
 	* record(order_id): adds the order_id to the log
