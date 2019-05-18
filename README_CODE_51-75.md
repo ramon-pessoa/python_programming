@@ -24,4 +24,8 @@ Some programming examples in Python
 
 	b. Solution (Python) - Create a second dict that maps urls to shortened urls and update that appropriately. When we see a url we've seen before, we can just then just re-use that shortened url: [url_shortener_same_url_twice.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/url_shortener_same_url_twice.py)
 
+56. Problem #56 [Medium]: Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+	a. Solution (Python) - Solution using backtracking. This solution runs in O(k^N) time and O(k) space, where N is the number of vertices: [colorable.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/colorable.py)
+
 Go back to [Contents](#contents).
