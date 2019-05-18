@@ -196,6 +196,14 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using ring buffer or circular buffer. Both record and get_last should take constant time: [log_record_get_last_constant_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_constant_time.py)
 
+19. Problem #19 [Medium]: A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color. Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+	a. Solution (Python): Solution using dynamic programming. Solution 1 (build_houses1): This solution runs in O(N * K^2) time and O(N * K) space. [build_houses_using_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/build_houses_using_dynamic_programming.py)
+
+	b. Solution (Python): Solution using dynamic programming. Solution 2 (build_houses2): This solution is only using O(K) space. [build_houses_using_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/build_houses_using_dynamic_programming.py)
+
+	c. Solution (Python): Solution using dynamic programming. Solution 3 (build_houses3): This solution is only O(N * K) and the space complexity is O(1). [build_houses_using_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/build_houses_using_dynamic_programming.py)
+
 20. Problem #20 [Easy]: Given two linked lists that intersect at some point, find the intersection node. The lists are non-cyclical.
 
 	* For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with calue 8.
