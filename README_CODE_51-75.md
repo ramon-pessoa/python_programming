@@ -44,4 +44,9 @@ Some programming examples in Python
 
 	a. Solution (Python) - Solution using an adapted binary search. This solution runs in O(log n): [shifted_array_search.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/shifted_array_search.py)
 
+59. Problem #59 [hard]: Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+	* a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
+
+
 Go back to [Contents](#contents).
