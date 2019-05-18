@@ -3,7 +3,7 @@ Some programming examples in Python
 
 ## Contents
 
-1. [Solutions for coding problems](#problems-from-1-to-25)
+1. [Problems from 1 to 25](#problems-from-1-to-25)
 
 2. [All solutions for coding problem](https://github.com/ramonfigueiredopessoa/python_programming#solutions-for-coding-problems)
 
