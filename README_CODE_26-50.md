@@ -9,6 +9,14 @@ Some programming examples in Python
 
 ## Problems from 26 to 50
 
+26. Problem #26 [Medium]: Given a singly linked list and an integer k, remove the k th last element from the list. k is guaranteed to be smaller than the length of the list.
+
+	* The list is very long, so making more than one pass is prohibitively expensive.
+
+	* Do this in constant space and in one pass.
+
+	a. Solution (Python) - Solution that only makes one pass and is constant time: [remove_kth_from_linked_list.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/remove_kth_from_linked_list.py)
+
 27. Problem #27 [Easy]: Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
 
 	* For example, given the string "([])[]({})", you should return true.
