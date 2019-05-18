@@ -175,6 +175,12 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using dictionary. This solution runs in O(n * k) time and O(k) space: [longest_substring_with_k_distinct_characters_using_dictionary.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/longest_substring_with_k_distinct_characters_using_dictionary.py)
 
+14. Problem #14 [Medium]: The area of a circle is defined as pi r ^ 2. Estimate pi to 3 decimal places using a Monte Carlo method.
+
+	* Hint: The basic equation of a circle is x^2 + y^2 = r^2.
+
+	a. Solution (Python) - Solution using a Monte Carlo method: [estimate_pi.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/estimate_pi.py)
+
 16. Problem #16 [Easy]: You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
 
 	* record(order_id): adds the order_id to the log
