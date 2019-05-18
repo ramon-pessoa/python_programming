@@ -13,7 +13,7 @@ Some programming examples in Python
 
 	a. Solution (Python): [contains_pair_with_sum.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum.py)
 
-	b. Solution (Python): Brute force solution. Involve a nested iteration to check for every pair of numbers. This solution is O(N^2). [contains_pair_with_sum_brute_force.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_brute_force.py)
+	b. Solution (Python) - Brute force solution. Involve a nested iteration to check for every pair of numbers. This solution is O(N^2): [contains_pair_with_sum_brute_force.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_brute_force.py)
 
 	c. Solution (Python) [contains_pair_with_sum_using_set_linear_time.py]: This solution uses a set to remember the numbers we've seen so far. This would be O(N) since lookups of sets are O(1) each. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_using_set_linear_time.py)
 
