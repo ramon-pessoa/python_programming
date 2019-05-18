@@ -9,6 +9,10 @@ Some programming examples in Python
 
 ## Problems from 51 to 75
 
+53. Problem #53 [Medium]: Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+	a. Solution (Python): [queue_using_two_stacks.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/queue_using_two_stacks.py)
+
 55. Problem #55 [Easy]: Implement a URL shortener with the following methods:
 
 	* shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
