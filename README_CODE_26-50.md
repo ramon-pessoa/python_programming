@@ -192,6 +192,18 @@ Some programming examples in Python
 
 	a. Solution (Python) - Recursive solution: [reconstruct.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/reconstruct.py)
 
+49. Problem #49 [Medium]: Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+	* For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+	* Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+	* Do this in O(N) time.
+
+	a. Solution (Python) - Brute force solution. This solution run in O(N^3) time: [max_subarray_sum_brute_force_solution.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/max_subarray_sum_brute_force_solution.py)
+
+	b. Solution (Python) - Solution using Kadane's algorithm. This algoritm runs in O(N) time and O(1) space: [max_subarray_sum_using_kadane_algorithm.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/max_subarray_sum_using_kadane_algorithm.py)
+
 50. Problem #50 [Easy]: Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'. 
 
 	* Given the root to such a tree, write a function to evaluate it.
