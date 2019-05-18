@@ -1,5 +1,6 @@
 '''
-Problem #53 [Medium]: Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+Problem #53 [Medium]: Implement a queue using two stacks. 
+Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 '''
 
 '''
@@ -18,7 +19,10 @@ Then dequeuing three times:
 1
 2
 3
-Which retains the original order. So when enqueuing, we can simply push to our first stack. When dequeuing, we'll first check our second stack to see if any residual elements are there from a previous emptying, and if not, we'll empty all of stack one into stack two immediately so that the order of elements is correct (we shouldn't empty some elements into stack two, pop only some of them, and then empty some more, for example).
+
+Which retains the original order. 
+So when enqueuing, we can simply push to our first stack. 
+When dequeuing, we'll first check our second stack to see if any residual elements are there from a previous emptying, and if not, we'll empty all of stack one into stack two immediately so that the order of elements is correct (we shouldn't empty some elements into stack two, pop only some of them, and then empty some more, for example).
 '''
 
 class Queue:
