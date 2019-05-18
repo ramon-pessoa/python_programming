@@ -49,7 +49,7 @@ Some programming examples in Python
 	node = Node('root', Node('left', Node('left.left')), Node('right'))
 	assert deserialize(serialize(node)).left.left.val == 'left.left'
 	```
-	a. Solution (Python) [serialize_deserialize.py]. Solution with binary tree. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/serialize_deserialize.py)
+	a. Solution (Python) - Solution with binary tree: [serialize_deserialize.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/serialize_deserialize.py)
 
 
 4. Problem #4 [Hard]: Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
@@ -57,9 +57,9 @@ Some programming examples in Python
 	* For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 	* You can modify the input array in-place.
 
-	a. Solution (Python) [first_missing_positive.py]. Solution in O(N) time and no extra space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/first_missing_positive.py)
+	a. Solution (Python) - Solution in O(N) time and no extra space: [first_missing_positive.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/first_missing_positive.py)
 
-	b. Solution (Python) [first_missing_positive_using_set.py]. Solution in O(N) time and O(N) space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/first_missing_positive_using_set.py)
+	b. Solution (Python) - Solution in O(N) time and O(N) space: [first_missing_positive_using_set.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/first_missing_positive_using_set.py)
 
 5. Problem #5 [Medium]: cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. 
 	
@@ -76,14 +76,14 @@ Some programming examples in Python
 
 	* Implement car and cdr.
 
-	a. Solution (Python) [car_cdr.py]. Solution using closures to store data. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/car_cdr.py)
+	a. Solution (Python) - Solution using closures to store data: [car_cdr.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/car_cdr.py)
 
 
 6. Problem #6 [Hard]: An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
 
 	* If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
-	a. Solution (Python) [xor_linked_list.py]. Solution where add runs in O(1) time and get runs in O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/xor_linked_list.py)
+	a. Solution (Python) - Solution where add runs in O(1) time and get runs in O(N) time: [xor_linked_list.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/xor_linked_list.py)
 
 7. Problem #7 [Medium]: Problem #7 [Medium]: Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
 
@@ -91,9 +91,9 @@ Some programming examples in Python
 
 	* You can assume that the messages are decodable. For example, '001' is not allowed.
 
-	a. Solution (Python) [num_encodings_O_2n.py]. Solution runs in O(2n). However, this solution is not very efficient. Every branch calls itself recursively twice. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/num_encodings_O_2n.py)
+	a. Solution (Python) - Solution runs in O(2n). However, this solution is not very efficient. Every branch calls itself recursively twice: [num_encodings_O_2n.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/num_encodings_O_2n.py)
 
-	b. Solution (Python) [num_encodings_O_n.py]. Solution runs O(n) by using dynamic programming. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/num_encondings_O_n.py)
+	b. Solution (Python) - Solution runs O(n) by using dynamic programming. [num_encodings_O_n.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/num_encondings_O_n.py)
 
 8. Problem #8 [Easy]: A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
 
@@ -111,9 +111,9 @@ Some programming examples in Python
 	 1   1
  	```
 
-	a. Solution (Python) [unival_tree_o_n_2.py]. Solution in O(N^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/unival_tree_o_n_2.py)
+	a. Solution (Python) - Solution in O(N^2) time: [unival_tree_o_n_2.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/unival_tree_o_n_2.py)
 
-	b. Solution (Python) [unival_tree_o_n.py]. Solution in O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/unival_tree_o_n.py)
+	b. Solution (Python) - Solution in O(N) time: [unival_tree_o_n.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/unival_tree_o_n.py)
 
 9. Problem #9 [Hard]: Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
 
@@ -121,17 +121,17 @@ Some programming examples in Python
 
 	* Follow-up: Can you do this in O(N) time and constant space?
 
-	a. Solution (Python) [largest_sum_of_non_adjacent_numbers_exponential_time.py]. Solution in O(2^N) time - recursive calls. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_exponential_time.py) 
+	a. Solution (Python) - Solution in O(2^N) time. Recursive calls: [largest_sum_of_non_adjacent_numbers_exponential_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_exponential_time.py) 
 
-	b. Solution (Python) [largest_sum_of_non_adjacent_numbers_linear_time.py]. Solution runs in O(n) time and in O(n) space - using dynamic programming to store. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_linear_time.py) 
+	b. Solution (Python) - Solution runs in O(n) time and in O(n) space. Solution using dynamic programming to store: [largest_sum_of_non_adjacent_numbers_linear_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_linear_time.py) 
 
-	c. Solution (Python) [largest_sum_of_non_adjacent_numbers_linear_time_improvement.py]. Solution runs in O(n) time and in O(n) space with improvements. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_linear_time_improvement.py)
+	c. Solution (Python) - Solution runs in O(n) time and in O(n) space with improvements: [largest_sum_of_non_adjacent_numbers_linear_time_improvement.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/largest_sum_of_non_adjacent_numbers_linear_time_improvement.py)
 
 10. Problem #10 [Medium]: Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-	a. Solution (Python) [scheduler_new_thread_each_call.py]. While this solution works, we spin off a new thread each time we call delay (the number of threads we use could easily explode). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/scheduler_new_thread_each_call.py) 
+	a. Solution (Python) - While this solution works, we spin off a new thread each time we call delay (the number of threads we use could easily explode): [scheduler_new_thread_each_call.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/scheduler_new_thread_each_call.py) 
 
-	b. Solution (Python) [scheduler_dedicated_thread.py]. Solution with dedicated thread to call the functions, and storing the functions we need to call in some data structure. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/scheduler_dedicated_thread.py)
+	b. Solution (Python) - Solution with dedicated thread to call the functions, and storing the functions we need to call in some data structure: [scheduler_dedicated_thread.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/scheduler_dedicated_thread.py)
 
 11. Problem #11 [Medium]: Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
 
@@ -139,9 +139,9 @@ Some programming examples in Python
 
 	* Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-	a. Solution (Python) [autocomplete.py]. This solution runs in O(N) time, where N is the number of words in the dictionary. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete.py) 
+	a. Solution (Python) - This solution runs in O(N) time, where N is the number of words in the dictionary: [autocomplete.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete.py) 
 
-	b. Solution (Python) [autocomplete_using_trie.py]. More efficient implementation using a data structure known as a trie. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete_using_trie.py) 
+	b. Solution (Python) - More efficient implementation using a data structure known as a trie: [autocomplete_using_trie.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/autocomplete_using_trie.py) 
 
 16. Problem #16 [Easy]: You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
 
@@ -150,9 +150,9 @@ Some programming examples in Python
 
 	* You should be as efficient with time and space as possible.
 
-	a. Solution (Python) [log_record_get_last_linear_time.py]. Solution initializing an array to have size N, and index it in constant time. Record takes O(N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_linear_time.py)
+	a. Solution (Python) - Solution initializing an array to have size N, and index it in constant time. Record takes O(N) time: [log_record_get_last_linear_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_linear_time.py)
 
-	b. Solution (Python) [log_record_get_last_constant_time.py]. Solution using ring buffer or circular buffer. Both record and get_last should take constant time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_constant_time.py)
+	b. Solution (Python) - Solution using ring buffer or circular buffer. Both record and get_last should take constant time: [log_record_get_last_constant_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_constant_time.py)
 
 20. Problem #20 [Easy]: Given two linked lists that intersect at some point, find the intersection node. The lists are non-cyclical.
 
@@ -162,15 +162,15 @@ Some programming examples in Python
 
 	Do this in O(M + N) time
 
-	a. Solution (Python) [find_intersecting_node.py]. Solution by finding the difference between the two, and then keep two pointers at the head of each list. This solution runs in O(M + N) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_intersecting_node.py)
+	a. Solution (Python) - Solution by finding the difference between the two, and then keep two pointers at the head of each list. This solution runs in O(M + N) time: [find_intersecting_node.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_intersecting_node.py)
 
 21. Problem #21 [Easy]: Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 	* For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-	a. Solution (Python) [max_overlapping_quadratic_time.py]. Solution checking each interval pairwise. This solution would take O(n^2) time. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_quadratic_time.py) 
+	a. Solution (Python) - Solution checking each interval pairwise. This solution would take O(n^2) time: [max_overlapping_quadratic_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_quadratic_time.py) 
 
-	b. Solution (Python) [max_overlapping_logarithmic_time.py]. Solution that extract the start times and end times of all the intervals and sort them. This solution runs in O(n log n) time, since we have to sort the intervals. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_logarithmic_time.py) 
+	b. Solution (Python) - Solution that extract the start times and end times of all the intervals and sort them. This solution runs in O(n log n) time, since we have to sort the intervals: [max_overlapping_logarithmic_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/max_overlapping_logarithmic_time.py) 
 
 
 Go back to [Contents](#contents).
