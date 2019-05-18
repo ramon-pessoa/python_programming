@@ -25,11 +25,11 @@ Some programming examples in Python
 	* For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 	* Follow-up: what if you can't use division?
 
-	a. Solution (Python) [array_with_the_product_of_all_without_division.py]. Solution without division that takes O(nˆ2). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_without_division.py)
+	a. Solution (Python) - Solution without division that takes O(nˆ2): [array_with_the_product_of_all_without_division.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_without_division.py)
 
-	b. Solution (Python) [array_with_the_product_of_all_with_division.py]. Solution with division that takes O(n). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_with_division.py)
+	b. Solution (Python) - Solution with division that takes O(n): [array_with_the_product_of_all_with_division.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_with_division.py)
 
-	c. Solution (Python) [array_with_the_product_of_all_without_division_linear_time.py]. Solution without division that takes O(n). (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_without_division_linear_time.py)
+	c. Solution (Python) - Solution without division that takes O(n): [array_with_the_product_of_all_without_division_linear_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/array_with_the_product_of_all_without_division_linear_time.py)
 
 3. Problem #3 [Medium]: Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
