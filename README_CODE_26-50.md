@@ -3,9 +3,11 @@ Some programming examples in Python
 
 ## Contents
 
-1. [Solutions for coding problems](#solutions-for-coding-problems)
+1. [Problems from 26 to 50](#problems-from-26-to-50)
 
-## Solutions for coding problems
+2. [All solutions for coding problem](https://github.com/ramonfigueiredopessoa/python_programming#solutions-for-coding-problems)
+
+## Problems from 26 to 50
 
 27. Problem #27 [Easy]: Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
 
