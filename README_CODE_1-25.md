@@ -15,9 +15,9 @@ Some programming examples in Python
 
 	b. Solution (Python) - Brute force solution. Involve a nested iteration to check for every pair of numbers. This solution is O(N^2): [contains_pair_with_sum_brute_force.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_brute_force.py)
 
-	c. Solution (Python) [contains_pair_with_sum_using_set_linear_time.py]: This solution uses a set to remember the numbers we've seen so far. This would be O(N) since lookups of sets are O(1) each. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_using_set_linear_time.py)
+	c. Solution (Python) - This solution uses a set to remember the numbers we've seen so far. This would be O(N) since lookups of sets are O(1) each: [contains_pair_with_sum_using_set_linear_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_using_set_linear_time.py)
 
-	d. Solution (Python) [contains_pair_with_sum_using_sorting_and_binary_search.py]: This solution uses sorting and binary search. Since we run binary search on N elements, this would take O(N log N) with O(1) space. (https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_using_sorting_and_binary_search.py)
+	d. Solution (Python) - This solution uses sorting and binary search. Since we run binary search on N elements, this would take O(N log N) with O(1) space: [contains_pair_with_sum_using_sorting_and_binary_search.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/contains_pair_with_sum_using_sorting_and_binary_search.py)
 
 
 2. Problem #2 [Hard]: Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
