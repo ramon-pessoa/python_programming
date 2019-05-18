@@ -3,9 +3,11 @@ Some programming examples in Python
 
 ## Contents
 
-1. [Solutions for coding problems](#solutions-for-coding-problems)
+1. [Problems from 51 to 75](#problems-from-51-to-75)
 
-## Solutions for coding problems
+2. [All solutions for coding problem](https://github.com/ramonfigueiredopessoa/python_programming#solutions-for-coding-problems)
+
+## Problems from 51 to 75
 
 55. Problem #55 [Easy]: Implement a URL shortener with the following methods:
 
