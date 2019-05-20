@@ -46,7 +46,23 @@ Some programming examples in Python
 
 59. Problem #59 [hard]: Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
-	* a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
+	a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
 
+63. Problem #63 [Easy]: Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+	* For example, given the following matrix and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+	```
+	[['F', 'A', 'C', 'I'],
+	 ['O', 'B', 'Q', 'P'],
+	 ['A', 'N', 'O', 'B'],
+	 ['M', 'A', 'S', 'S']]
+	```
+	
+	a. Solution (Python): [word_search1.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/word_search1.py)
+
+	b. Solution (Python) - Optimization the previous solution (a): [word_search2.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/word_search2.py)
+
+	c. Solution (Python) - Optimization the previous solution (b): [word_search3.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/word_search3.py)
 
 Go back to [Contents](#contents).
