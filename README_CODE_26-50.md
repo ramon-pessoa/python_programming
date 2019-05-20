@@ -25,6 +25,22 @@ Some programming examples in Python
 
 	a. Solution (Python) - Solution using Stack: [balance.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/26-50/balance.py)
 
+28. Problem #28 [Medium]: Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
+
+	* More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
+
+	* If you can only fit one word on a line, then you should pad the right-hand side with spaces.
+
+	* Each word is guaranteed not to be longer than k.
+
+	* For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
+
+	```
+	["the  quick brown", # 1 extra space on the left
+	"fox  jumps  over", # 2 extra spaces distributed evenly
+	"the   lazy   dog"] # 4 extra spaces distributed evenly
+	```
+	
 29. Problem #29 [Easy]: Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 
 	* Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
