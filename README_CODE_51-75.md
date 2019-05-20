@@ -48,6 +48,12 @@ Some programming examples in Python
 
 	a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
 
+60. Problem #60 [Medium]: Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+	* For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
+
+	* Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
 61. Problem #61 [Medium]: Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
 
 	* Do this faster than the naive method of repeated multiplication.
