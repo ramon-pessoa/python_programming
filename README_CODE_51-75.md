@@ -9,13 +9,18 @@ Some programming examples in Python
 
 ## Problems from 51 to 75
 
+52. Problem #52 [Hard]: Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+	* set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+	* get(key): gets the value at key. If no such key exists, return null.
+
+	* Each operation should run in O(1) time.
+
 53. Problem #53 [Medium]: Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 
 	a. Solution (Python): [queue_using_two_stacks.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/queue_using_two_stacks.py)
 
-54. Problem #54 [Hard]: Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
-
-	* Implement an efficient sudoku solver.
+54. Problem #54 [Hard]: Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9. Implement an efficient sudoku solver.
 
 55. Problem #55 [Easy]: Implement a URL shortener with the following methods:
 
