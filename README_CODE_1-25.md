@@ -235,4 +235,15 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using dynamic programming. This will run in runs in O(N^2) time and O(N) space: [find_sentence_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_sentence_dynamic_programming.py)
 
+25. Problem #25 [Hard]: Implement regular expression matching with the following special characters:
+
+	- . (period) which matches any single character
+	- * (asterisk) which matches zero or more of the preceding element
+
+	* That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+	* For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+	* Given the regular expression ".\*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
 Go back to [Contents](#contents).
