@@ -235,6 +235,19 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using dynamic programming. This will run in runs in O(N^2) time and O(N) space: [find_sentence_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_sentence_dynamic_programming.py)
 
+24. Problem #23 [Hard]: You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
+
+	* Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
+
+	* For example, given the following board and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+
+	```
+	[[f, f, f, f],
+	[t, t, f, t],
+	[f, f, f, f],
+	[f, f, f, f]]
+	```
+
 24. Problem #24 [Medium]: Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
 
 	* Design a binary tree node class with the following methods:
