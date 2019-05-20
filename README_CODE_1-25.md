@@ -196,6 +196,19 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using ring buffer or circular buffer. Both record and get_last should take constant time: [log_record_get_last_constant_time.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/log_record_get_last_constant_time.py)
 
+18. Problem #18 [Hard]: Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
+
+	* For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+
+	```
+	10 = max(10, 5, 2)
+	7 = max(5, 2, 7)
+	8 = max(2, 7, 8)
+	8 = max(7, 8, 7)
+	```
+
+	* Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+
 19. Problem #19 [Medium]: A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color. Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
 	a. Solution (Python): Solution using dynamic programming. [build_houses_using_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/build_houses_using_dynamic_programming.py)
@@ -235,7 +248,7 @@ Some programming examples in Python
 
 	b. Solution (Python) - Solution using dynamic programming. This will run in runs in O(N^2) time and O(N) space: [find_sentence_dynamic_programming.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/find_sentence_dynamic_programming.py)
 
-24. Problem #23 [Hard]: You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
+23. Problem #23 [Hard]: You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
 
 	* Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
 
