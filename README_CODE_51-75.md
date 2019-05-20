@@ -48,6 +48,12 @@ Some programming examples in Python
 
 	a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
 
+61. Problem #61 [Medium]: Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+	* Do this faster than the naive method of repeated multiplication.
+
+	* For example, pow(2, 10) should return 1024.
+
 62. Problem #62 [medium]: There is an N by M matrix of zeros. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
 
 	* For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
