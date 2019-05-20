@@ -233,6 +233,8 @@ Some programming examples in Python
 
 		* The name of a directory or sub-directory will not contain a period.
 
+	a. Solution (Python): [longest_absolute_path.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/1-25/longest_absolute_path.py)
+	
 18. Problem #18 [Hard]: Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
 
 	* For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
