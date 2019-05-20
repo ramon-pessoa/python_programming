@@ -48,6 +48,15 @@ Some programming examples in Python
 
 	a. Solution (Python) - File syncing algorithm: [file_syncing_algorithm.txt](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/file_syncing_algorithm.txt)
 
+62. Problem #62 [medium]: There is an N by M matrix of zeros. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+	* For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+		* Right, then down
+		* Down, then right
+
+	* Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
 63. Problem #63 [Easy]: Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
 
 	* For example, given the following matrix and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
