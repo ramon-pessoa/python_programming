@@ -13,6 +13,10 @@ Some programming examples in Python
 
 	a. Solution (Python): [queue_using_two_stacks.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/queue_using_two_stacks.py)
 
+54. Problem #54 [Hard]: Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+	* Implement an efficient sudoku solver.
+
 55. Problem #55 [Easy]: Implement a URL shortener with the following methods:
 
 	* shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
