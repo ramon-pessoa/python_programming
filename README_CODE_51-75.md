@@ -101,4 +101,141 @@ Some programming examples in Python
 
 	c. Solution (Python) - Optimization the previous solution (b): [word_search3.py](https://github.com/ramon-pessoa/python_programming/blob/master/solutions_for_coding_problems/51-75/word_search3.py)
 
+64. Problem #64 [Hard]: A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+65. Problem #65 [Easy]: Given a N by M matrix of numbers, print out the matrix in a clockwise spiral. 
+
+For example, given the following matrix:
+
+```
+[[1, 2, 3, 4, 5],
+[6, 7, 8, 9, 10],
+[11, 12, 13, 14, 15],
+[16, 17, 18, 19, 20]]
+```
+
+You should print out the following:
+
+```
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+```
+
+66. Problem #66 [Medium]: Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
+
+67. Problem #67 [Hard]: Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+* set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+* get(key): gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+68. Problem #68 [Hard]: On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and the list of bishops:
+
+* (0, 0)
+* (1, 2)
+* (2, 2)
+* (4, 0)
+
+The board would look like this:
+
+```
+[b 0 0 0 0]
+[0 0 b 0 0]
+[0 0 b 0 0]
+[0 0 0 0 0]
+[b 0 0 0 0]
+```
+
+69. Problem #69 [Easy]: Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
+
+You can assume the list has at least three integers.
+
+70. Problem #70 [Easy]: A number is considered perfect if its digits sum up to exactly 10. 
+
+Given a positive integer n, return the n‑th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
+71. Problem #71 [Easy]: Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+
+72. Problem #72 [Hard]: In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+
+Given a graph with n nodes and m directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
+
+The graph is represented with a string and an edge list. The i-th character represents the uppercase letter of the i-th node. Each tuple in the edge list (i, j) means there is a directed edge from the i-th node to the j-th node. Self-edges are possible, as well as multi-edges.
+
+For example, the following input graph:
+
+ABACA
+
+```
+[(0, 1),
+(0, 2),
+(2, 3),
+(3, 4)]
+```
+
+Would have maximum value 3 using the path of vertices [0, 2, 3, 4], (A, A, C, A).
+
+The following input graph:
+
+A
+
+```
+[(0, 0)]
+```
+
+Should return null, since we have an infinite loop.
+
+73. Problem #73 [Easy]: Given the head of a singly linked list, reverse it in-place.
+
+74. Problem #74 [Medium]: Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the i‑th row and j‑th column is (i + 1) * (j + 1) (if 0‑indexed) or i * j (if 1‑indexed).
+
+Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
+
+For example, given N = 6 and X = 12, you should return 4, since the multiplication table
+looks like this:
+
+```
+| 1 | 2 | 3 | 4 | 5 | 6 |
+| 2 | 4 | 6 | 8 | 10 | 12 |
+| 3 | 6 | 9 | 12 | 15 | 18 |
+| 4 | 8 | 12 | 16 | 20 | 24 |
+| 5 | 10 | 15 | 20 | 25 | 30 |
+| 6 | 12 | 18 | 24 | 30 | 36 |
+```
+
+75. Problem #75 [Hard]: Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
+
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+
 Go back to [Contents](#contents).
